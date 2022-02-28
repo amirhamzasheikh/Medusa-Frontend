@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 88px;
+  /* position: absolute; */
+  width: 100%;
+  z-index: 10;
+}
+
+.footerbtn {
+  border: 2px solid white ;
+  background-color: #919eb8;
+  color: white;
+  padding: 6px 22px 12px 22px;
+}
+
+.footerbtnspace {
+  margin-right: 10px;
+}
+
+.mdblink {
+  color: white;
+  margin-left: 3px;
+}
+
+.footersec {
+  margin-right: 14px,
+}
+.container h1 {
+  margin: 0;
+}
+
+.seccards{
+  text-align: center;
+  margin-bottom: 8px;
+  margin-right: -50px;
+
+}
+
+.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded {
+  width: 100% !important;
+  left: 16px !important;
+  top: 90px !important;
+}
+
+#menu-appbar
+  .MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded:first-child {
+  text-align: right !important;
+}
+
+.signrate{
+  background-color: #eeeeee;
+    padding: 2px 6px;
+    font-size: 28px;
+    font-weight: 300;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+.seccards h4{
+  font-size: 30px;
+    color: #2196f3;
+}
+
+.logo {
+  font-size: var(--fz-xl);
+  color: var(--logo-color-900);
+}
+
+.btn {
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  font-size: var(--fz-sm);
+  cursor: pointer;
+}
+
+.btn span {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.btn svg {
+  font-size: var(--fz-ml);
+}
+.resbtn{
+  display: flex;
+            justify-content: center;
+            margin-bottom: 18px;
+}
+@media screen and (max-width: 768px) {
+  .resbtn{
+    display: block ;
+    text-align: center;
+    margin-bottom: 40px 
+  }
+  .footerbtn{
+    margin-top: 22px;
+  }
+}
+@media (max-width: 876px) {
+  .container {
+    padding: 20px 22px;
+  }
+
+}
